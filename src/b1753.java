@@ -54,7 +54,7 @@ public class b1753 {//다익스트라 알고리즘**
         for (int i = 1; i < V + 1; i++) {
             if (dist[i] == Integer.MAX_VALUE) {
                 System.out.println("INF");
-            } else {
+            } else { 
                 System.out.println(dist[i]);
             }
         }
